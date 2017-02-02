@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FolderSelection", "FolderSe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DialogService", "DialogService\DialogService.csproj", "{63C14F2C-C693-48FE-85B1-57C60BEE1258}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImageDisplay", "ImageDisplay\ImageDisplay.csproj", "{3033FEEC-0500-4BAE-9971-7E11121368DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Event", "Event\Event.csproj", "{E0B7E0E2-244A-42BA-9ECF-71B529C2B5BF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{63C14F2C-C693-48FE-85B1-57C60BEE1258}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63C14F2C-C693-48FE-85B1-57C60BEE1258}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63C14F2C-C693-48FE-85B1-57C60BEE1258}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3033FEEC-0500-4BAE-9971-7E11121368DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3033FEEC-0500-4BAE-9971-7E11121368DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3033FEEC-0500-4BAE-9971-7E11121368DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3033FEEC-0500-4BAE-9971-7E11121368DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0B7E0E2-244A-42BA-9ECF-71B529C2B5BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0B7E0E2-244A-42BA-9ECF-71B529C2B5BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0B7E0E2-244A-42BA-9ECF-71B529C2B5BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0B7E0E2-244A-42BA-9ECF-71B529C2B5BF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

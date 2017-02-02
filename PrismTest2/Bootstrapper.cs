@@ -1,5 +1,6 @@
 ﻿using DialogService;
 using FolderSelection;
+using ImageDisplay;
 using Microsoft.Practices.Unity;
 using Prism.Modularity;
 using Prism.Unity;
@@ -25,8 +26,11 @@ namespace PrismTest2
         protected override void ConfigureModuleCatalog()
         {
             // Module A is defined in the code.
-            Type moduleAType = typeof(FolderSelectionModule);
-            ModuleCatalog.AddModule(new ModuleInfo(moduleAType.Name, moduleAType.AssemblyQualifiedName));
+            Type moduleFolderSelectionType = typeof(FolderSelectionModule);
+            ModuleCatalog.AddModule(new ModuleInfo(moduleFolderSelectionType.Name, moduleFolderSelectionType.AssemblyQualifiedName));
+
+            Type moduleImageDisplayType = typeof(ImageDisplayModule);
+            ModuleCatalog.AddModule(new ModuleInfo(moduleImageDisplayType.Name, moduleImageDisplayType.AssemblyQualifiedName));
 
         }
 
